@@ -1,5 +1,5 @@
 # guardian-runner
-Node console runner for guardianjs micro testing framework.  The runner will watch for file changes and run a test file once it is finished.  The assumption it makes is that you have a test file which will report its result to the console.
+Node console runner for guardianjs micro testing framework.  The runner will watch for file changes and in the event of a change will run a test file.  The assumption it makes is that you have a single test file to run which will report its result to the console.
 
 ## Install
 
