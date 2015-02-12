@@ -1,5 +1,5 @@
 # guardian-runner
-Node console runner for guardianjs micro testing framework.  However you structure
+Node console runner for guardianjs micro testing framework.  The runner will watch for file changes and run a test file once it is finished.  The assumption it makes is that you have a test file which will report its result to the console.
 
 ## Install
 
@@ -13,7 +13,7 @@ $ npm install guardian-runner
 $ node_modules/guardian-runner start
 ```
 
-By default this will run test.js and watch for file changes with a default matching the glob pattern of '*.js' (except node_modules folder) which can be overridden with the following:
+By default this will run ```test.js``` and watch for file changes with a default matching the glob pattern of ```'*.js'``` (except node_modules folder) which can be overridden with the following:
 
 ```bash
 $ node_modules/guardian-runner start [testfile] [globpatterns]...
