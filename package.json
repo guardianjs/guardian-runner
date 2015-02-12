@@ -14,5 +14,8 @@
     "runner"
   ],
   "author": "Bryant Syme",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "guardianjs": "0.0.1"
+  }
 }
