@@ -16,6 +16,7 @@
   "author": "Bryant Syme",
   "license": "MIT",
   "dependencies": {
+    "gaze": "^0.5.1",
     "guardianjs": "0.0.1"
   }
 }
