@@ -7,7 +7,7 @@ Node console runner for guardianjs micro testing framework.  The runner will wat
 $ npm install guardian-runner
 ```
 
-## Console Usage
+## Usage
 
 ```bash
 $ node_modules/guardian-runner start
