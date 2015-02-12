@@ -1,0 +1,18 @@
+{
+  "name": "guardian-runner",
+  "version": "0.0.1",
+  "description": "Node console runner for guardianjs micro testing framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "guardian",
+    "tdd",
+    "unit",
+    "testing",
+    "runner"
+  ],
+  "author": "Bryant Syme",
+  "license": "MIT"
+}
