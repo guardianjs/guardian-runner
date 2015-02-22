@@ -1,6 +1,6 @@
 {
   "name": "guardian-runner",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Node console runner for guardianjs micro testing framework.",
   "main": "index.js",
   "scripts": {
