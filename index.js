@@ -8,7 +8,7 @@ function runner(file, patterns) {
 	var proc;
 
 	var ignoreForFasterWatch = '!**/node_modules/**';
-	var matchPatterns = (patterns || []).length ? patterns : ['**/*.js'];
+	var matchPatterns = (patterns || []).length ? patterns : ['*.js', '**/*.js'];
 	var matches = [ignoreForFasterWatch].concat(matchPatterns);
 
 	function spawnProc() {

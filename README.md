@@ -13,7 +13,7 @@ $ npm install guardian-runner
 $ node_modules/guardian-runner start
 ```
 
-By default this will run ```test.js``` and watch for file changes with a default matching the glob pattern of ```'*.js'``` (except node_modules folder) which can be overridden with the following:
+By default this will run ```test.js``` and watch for file changes with a default matching the glob pattern of ```['*.js', '**/*.js']``` (except node_modules folder) which can be overridden with the following:
 
 ```bash
 $ node_modules/guardian-runner start [testfile] [globpatterns]...
